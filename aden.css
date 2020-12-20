@@ -1,0 +1,165 @@
+body {
+  background-color:honeydew;
+color: darkgreen;
+
+}
+
+#darkMode {
+  float: right;
+}
+
+h1{
+  font-size: 32;
+  color: darkgreen;
+  font-family: Sofia;
+  text-align: center;
+}
+
+h4{
+  font-size: 18;
+}
+
+
+  ul {
+    list-style-position: inside;
+
+}
+
+.gallery > .imagecaption{
+  float:left;
+
+}
+
+.imagecaptionn{
+  float: left;
+}
+
+.imagecaption{
+  height: 100%;
+  float: right;
+
+}
+
+
+
+.wgstw {
+  border-radius: 8px;
+  height: 600px;
+/*  margin: 1%;
+  padding: 1%;
+  float: right;
+  */
+
+}
+
+ figcaption {
+/*  float: right;
+  width: 30%;
+*/  text-align: right;
+  font-style: italic;
+  font-size: smaller;
+  text-indent: 0;
+/*  margin: 0.5em;
+  padding: 0.5em;
+*/
+}
+
+#find{
+  text-color: darkgreen;
+  font-size: 24;
+  font: raleway;
+}
+#list{
+  color:darkblue;
+  font-size:15;
+  font: raleway;
+}
+.container {
+   width: 100%;
+   margin: 0 auto;
+   display: flex;
+   font: georgia;
+   border-radius: 2px;
+   border: 1px dotted black;
+
+
+}
+.aime {
+  border-radius: 8px;
+  height: 600px;
+  border: 2px dotted Black;
+  margin: 1%;
+  padding: 1%;
+}
+
+.selfportrait{
+    border-radius: 8px;
+    height: 600px;
+    border: 2px dotted Black;
+    margin: 1%;
+    padding: 1%;
+  }
+
+
+.details {
+    border-radius: 8px;
+    height: 600px;
+    border: 2px dotted Black;
+    margin: 1%;
+    padding: 1%;
+}
+.brooklyn {
+  border-radius: 8px;
+  height: 600px;
+  border: 2px dotted Black;
+  margin: 1%;
+  padding: 1%;
+}
+.caption{
+  font:raleway;
+  color: grey;
+  font-style: italic;
+  font-size: 9;
+}
+.container {
+   width: 100%;
+   margin: 0 auto;
+   display: flex;
+}
+
+
+nav {
+  flex: 2;
+  display: flex;
+  align-items: stretch;
+  font: times;
+}
+
+.nav-list {
+    flex: 1;
+    list-style: none;
+    margin: 0;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    border-radius: 1px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: solid 1px;
+}
+
+
+a:visited {
+ color: darkgreen;
+}
+
+/* latin */
+@font-face {
+  font-family: 'Sofia';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/sofia/v9/8QIHdirahM3j_su5uI0.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
